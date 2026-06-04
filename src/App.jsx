@@ -10,6 +10,7 @@ import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import AIAssistant from './pages/AIAssistant'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/my-profile' element={<MyProfile/>}/>
         <Route path='/my-appointment' element={<MyAppointments/>}/>
         <Route path='/appointment/:docId' element={<Appointment/>}/>
+        <Route path='/ai-assistant' element={<AIAssistant/>}/>
       </Routes>
 
       <Footer/>
